@@ -1,0 +1,33 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.FirebaseTest" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/meanGreen</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/meanGreen</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">#10631D</item>
+<!--        <item name="colorSecondary">@color/softGreen</item_expense>-->
+        <item name="colorSecondaryVariant">@color/offWhite</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="SearchViewStyle" parent="Widget.AppCompat.SearchView">
+        <item name="android:textColor">@color/offWhite</item>
+        <item name="android:editTextColor">@color/white</item>
+        <item name="android:textColorHint">@color/offWhiteHint</item>
+    </style>
+
+
+    <style name="Theme.FirebaseTest.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.FirebaseTest.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.FirebaseTest.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+</resources>

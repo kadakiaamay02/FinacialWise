@@ -1,0 +1,3 @@
+References / licenses for outside code used in this project
+
+One answer on StackExchange here (https://stackoverflow.com/a/52060794) was CC BY-SA 4.0.

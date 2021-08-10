@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">FinancialWise</string>
+    <string name="title_text">Firebase Test</string>
+    <string name="slogan">Finances done right!</string>
+    <string name="get_started_text">Get Started</string>
+    <string name="email_hint">Email</string>
+    <string name="password_hint">Password</string>
+    <string name="login_text">login</string>
+    <string name="or_text">Or</string>
+    <string name="create_text">Create Account</string>
+    <string name="username_hint">Username</string>
+    <string name="expenses_hint">Type your expenses here</string>
+    <string name="save_button">save</string>
+    <string name="menu_title">Add text</string>
+    <string name="uta_hint">UTA ID Number</string>
+    <string name="income_hint">Current income in $</string>
+    <string name="forgot_password_text">forgot password</string>
+    <string name="title_activity_profile">ProfileActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Username</string>
+    <string name="nav_header_subtitle">usernameemail@google.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_profile">Profile</string>
+    <string name="menu_expenses">Expenses</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_analysis">Analysis</string>
+    <string name="sign_out_menu">Sign Out</string>
+
+    <string name="expenses_profile_button">Go to Profile</string>
+    <string name="expensetype_hint">Expense Type</string>
+
+
+    <string name="analysis_tab_text_planned_vs_actual">Planned vs. Actual</string>
+    <string name="analysis_tab_text_pie_chart">Pie chart</string>
+    <string name="analysis_tab_text_statistics">Statistics</string>
+
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="forgot_password_btn">Submit</string>
+    <string name="forgot_password_instruction">To reset your password, enter the email address associated with the FinancialWise account.</string>
+    <string name="back_to_login">Back to Login</string>
+    <string name="menu_notes">Notes</string>
+    <string name="createAcct_radio">I AM 18 YEARS OF AGE OR OLDER</string>
+    <string name="edit_prof_username">Edit Username</string>
+    <string name="edit_prof_income">Edit Income</string>
+    <string name="edit_prof_study">Edit Field of Study</string>
+    <string name="edit_prof_college">Edit College Attended</string>
+    <string name="edit_prof_ID">Edit ID Number</string>
+    <string name="edit_prof_profession">Edit Profession</string>
+    <string name="edit_profile_save_text">Save Data</string>
+    <string name="edit_prof_title">Edit Your Profile</string>
+    <string name="analysis_change_date_text">Change...</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Notes_set_date">Set Date</string>
+    <string name="Notes_save_note">Save Note</string>
+    <string name="no_notes">There are currently no notes to display for this account.</string>
+    <string name="analysis_congradulations_msg_50_20_30">\nCongratulations, you spent 50% or more on needs and 30% or more on saves.</string>
+    <string name="Notes_goto_notePage">VIEW NOTES</string>
+</resources>

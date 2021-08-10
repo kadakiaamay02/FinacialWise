@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#0F250F</color>
+    <color name="DeepGreen">#123312</color>
+    <color name="meanGreen">#1E552A</color>
+    <color name="softGreen">#2EB344</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="progress">#17B12C</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="offWhite">#B5DFB7</color>
+    <color name="offWhiteHint">#93BC97</color>
+    <color name="offWhiteHint2">#A1C8A5</color>
+    <color name="lightGreen">#3F8F51</color>
+    <color name="transparent">#00000000</color>
+
+    <color name="analysis_category_needs">#2E7D32</color>
+    <color name="analysis_category_wants">#F9A825</color>
+    <color name="analysis_category_saves">#03A9F4</color>
+
+    <color name="analysis_category_pie_text">#DFFFFFFF</color>
+
+    <color name="analysis_planned_vs_actual_chart_individual_series_planned">#65DA69</color>
+    <color name="analysis_planned_vs_actual_chart_individual_series_actual">#CA4B24</color>
+</resources>

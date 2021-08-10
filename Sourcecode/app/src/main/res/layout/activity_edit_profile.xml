@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_gradient"
+    tools:context=".EditProfileActivity">
+
+
+    <ImageView
+        android:id="@+id/edit_prof_changeIconBtn"
+        android:layout_width="91dp"
+        android:layout_height="76dp"
+        android:elevation="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.615"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.19"
+        app:srcCompat="@android:drawable/ic_menu_camera" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="166dp"
+        android:layout_height="26dp"
+        android:elevation="1dp"
+        android:text="@string/edit_prof_title"
+        android:textAllCaps="true"
+        android:textColor="@color/offWhite"
+        android:textSize="15dp"
+        android:textStyle="normal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.097"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023" />
+
+    <ImageView
+        android:id="@+id/bgImageView"
+        android:layout_width="1000dp"
+        android:layout_height="153dp"
+        android:background="@color/meanGreen"
+        android:elevation="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"/>
+
+
+    <ImageButton
+        android:id="@+id/edit_prof_backBtn"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/ic_arrow"
+        android:backgroundTint="@color/offWhite"
+        android:elevation="2dp"
+        android:outlineSpotShadowColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.064"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:tint="@color/offWhite" />
+
+    <com.mikhaellopez.circularimageview.CircularImageView
+        android:id="@+id/edit_prof_icon"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:src="@mipmap/ic_launcher_round"
+        app:civ_border_color="#0D3E15"
+        app:civ_border_width="4dp"
+        app:civ_shadow="true"
+        app:civ_shadow_color="#3f51b5"
+        android:elevation="5dp"
+        app:civ_shadow_radius="0.65dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.089" />
+
+
+    <ProgressBar
+        android:id="@+id/edit_prof_progress"
+        android:visibility="invisible"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edit_prof_icon" />
+
+    <EditText
+        android:id="@+id/edit_profile_username"
+        android:layout_width="366dp"
+        android:layout_height="48dp"
+        android:hint="@string/edit_prof_username"
+        android:inputType="textPersonName"
+        android:maxLines="1"
+        android:paddingBottom="16dp"
+        android:textColor="@color/offWhite"
+        android:textColorHint="@color/offWhiteHint"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.488"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edit_prof_progress"
+        app:layout_constraintVertical_bias="0.035" />
+
+    <EditText
+        android:id="@+id/edit_profile_income"
+        android:layout_width="366dp"
+        android:layout_height="48dp"
+        android:hint="@string/edit_prof_income"
+        android:inputType="textPersonName"
+        android:maxLines="1"
+        android:paddingBottom="16dp"
+        android:textColor="@color/offWhite"
+        android:textColorHint="@color/offWhiteHint"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.488"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edit_profile_username"
+        app:layout_constraintVertical_bias="0.049" />
+
+    <EditText
+        android:id="@+id/edit_profile_study"
+        android:layout_width="366dp"
+        android:layout_height="48dp"
+        android:hint="@string/edit_prof_study"
+        android:inputType="textPersonName"
+        android:maxLines="1"
+        android:paddingBottom="16dp"
+        android:textColor="@color/offWhite"
+        android:textColorHint="@color/offWhiteHint"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.488"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edit_profile_income"
+        app:layout_constraintVertical_bias="0.049" />
+
+    <EditText
+        android:id="@+id/edit_profile_college"
+        android:layout_width="366dp"
+        android:layout_height="48dp"
+        android:hint="@string/edit_prof_college"
+        android:inputType="textPersonName"
+        android:maxLines="1"
+        android:paddingBottom="16dp"
+        android:textColor="@color/offWhite"
+        android:textColorHint="@color/offWhiteHint"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.488"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edit_profile_study"
+        app:layout_constraintVertical_bias="0.049" />
+
+    <EditText
+        android:id="@+id/edit_profile_ID"
+        android:layout_width="366dp"
+        android:layout_height="48dp"
+        android:hint="@string/edit_prof_ID"
+        android:inputType="textPersonName"
+        android:maxLines="1"
+        android:paddingBottom="16dp"
+        android:textColor="@color/offWhite"
+        android:textColorHint="@color/offWhiteHint"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.488"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edit_profile_college"
+        app:layout_constraintVertical_bias="0.049" />
+
+    <EditText
+        android:id="@+id/edit_profile_profession"
+        android:layout_width="365dp"
+        android:layout_height="48dp"
+        android:hint="@string/edit_prof_profession"
+        android:inputType="textPersonName"
+        android:maxLines="1"
+        android:paddingBottom="16dp"
+        android:textColor="@color/offWhite"
+        android:textColorHint="@color/offWhiteHint"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.488"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edit_profile_ID"
+        app:layout_constraintVertical_bias="0.049" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="365dp"
+        android:layout_height="30dp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edit_profile_profession"
+        app:layout_constraintVertical_bias="0.049">
+
+        <ImageButton
+            android:id="@+id/security_btn"
+            android:layout_width="25dp"
+            android:layout_height="wrap_content"
+            android:background="@color/transparent"
+            android:src="@drawable/ic_shield"
+            app:tint="@color/white" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:paddingLeft="5dp"
+            android:text="Edit Security attributes"
+            android:textColor="@color/white">
+
+        </TextView>
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/edit_profile_save_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_corners"
+        android:fontFamily="@font/roboto_black"
+        android:text="@string/edit_profile_save_text"
+        android:textColor="@color/offWhite"
+        android:textSize="11sp"
+        android:textStyle="italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
